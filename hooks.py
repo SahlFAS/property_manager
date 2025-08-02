@@ -1,0 +1,6 @@
+app_name = "property_manager"
+app_title = "Property Manager"
+app_publisher = "Your Name"
+app_description = "Custom App for Property Unit Management"
+app_email = "you@example.com"
+app_license = "MIT"

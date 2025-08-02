@@ -1,0 +1,150 @@
+{
+    "doctype": "DocType",
+    "name": "Property Unit",
+    "module": "Property Manager",
+    "custom": 1,
+    "fields": [
+        {
+            "fieldname": "property_type",
+            "fieldtype": "Select",
+            "label": "النوع",
+            "options": "\nشقة\nفيلا\nدور"
+        },
+        {
+            "fieldname": "floor",
+            "fieldtype": "Data",
+            "label": "الدور"
+        },
+        {
+            "fieldname": "unit_number",
+            "fieldtype": "Data",
+            "label": "رقم الوحدة"
+        },
+        {
+            "fieldname": "area",
+            "fieldtype": "Float",
+            "label": "المساحة"
+        },
+        {
+            "fieldname": "entrance",
+            "fieldtype": "Select",
+            "label": "الدخول",
+            "options": "\nشمالي\nجنوبي\nشرقي\nغربي"
+        },
+        {
+            "fieldname": "view",
+            "fieldtype": "Data",
+            "label": "العرض"
+        },
+        {
+            "fieldname": "project_type",
+            "fieldtype": "Link",
+            "label": "نوع المشروع",
+            "options": "Project"
+        },
+        {
+            "fieldname": "category",
+            "fieldtype": "Select",
+            "label": "category النوع",
+            "options": "\nسكني\nتجاري"
+        },
+        {
+            "fieldname": "bedrooms",
+            "fieldtype": "Int",
+            "label": "عدد الغرف"
+        },
+        {
+            "fieldname": "living_rooms",
+            "fieldtype": "Int",
+            "label": "عدد الصالات"
+        },
+        {
+            "fieldname": "street_count",
+            "fieldtype": "Int",
+            "label": "عدد الشوارع"
+        },
+        {
+            "fieldname": "bathrooms",
+            "fieldtype": "Int",
+            "label": "عدد الحمامات"
+        },
+        {
+            "fieldname": "unit_nature",
+            "fieldtype": "Select",
+            "label": "طبيعة الوحدة",
+            "options": "\nشقة\nفيلا\nدور"
+        },
+        {
+            "fieldname": "occupancy_status",
+            "fieldtype": "Select",
+            "label": "حالة الوحدة",
+            "options": "\nشاغرة\nمشغولة"
+        },
+        {
+            "fieldname": "monthly_rent",
+            "fieldtype": "Currency",
+            "label": "إيجار شهري"
+        },
+        {
+            "fieldname": "yearly_rent",
+            "fieldtype": "Currency",
+            "label": "إيجار سنوي"
+        },
+        {
+            "fieldname": "has_electricity",
+            "fieldtype": "Check",
+            "label": "كهرباء"
+        },
+        {
+            "fieldname": "has_water",
+            "fieldtype": "Check",
+            "label": "ماء"
+        },
+        {
+            "fieldname": "has_internet",
+            "fieldtype": "Check",
+            "label": "نت"
+        },
+        {
+            "fieldname": "has_ac",
+            "fieldtype": "Check",
+            "label": "مكيف اسبلت"
+        },
+        {
+            "fieldname": "has_garage",
+            "fieldtype": "Check",
+            "label": "جراج سيارة"
+        },
+        {
+            "fieldname": "broker_name",
+            "fieldtype": "Data",
+            "label": "الوسيط"
+        },
+        {
+            "fieldname": "lease_contract",
+            "fieldtype": "Attach",
+            "label": "عقد الإيجار"
+        },
+        {
+            "fieldname": "price",
+            "fieldtype": "Currency",
+            "label": "السعر"
+        },
+        {
+            "fieldname": "phone_number",
+            "fieldtype": "Data",
+            "label": "الهاتف"
+        }
+    ],
+    "permissions": [
+        {
+            "role": "System Manager",
+            "read": 1,
+            "write": 1,
+            "create": 1,
+            "delete": 1
+        }
+    ],
+    "istable": 0,
+    "editable_grid": 1
+}
