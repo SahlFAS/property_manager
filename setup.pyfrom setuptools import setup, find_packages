@@ -1,0 +1,15 @@
+
+setup(
+    name='property_manager',
+    version='0.0.1',
+    description='Property management app for ERPNext',
+    author='Ahmad Muhammad',
+    author_email='support@sahl-tech.com',
+    packages=find_packages(),
+    include_package_data=True,
+    zip_safe=False,
+    install_requires=[
+        'frappe'
+    ]
+)
+
